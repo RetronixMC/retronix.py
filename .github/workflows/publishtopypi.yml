@@ -2,7 +2,10 @@ name: Publish retronix.py to pypi.org
 on:
    push:
       branches:
-      - master
+        - master
+      paths:
+        - '**.py'
+        - '**.json'
 jobs:
    build-n-publish:
       name: Build and publish to PyPi
