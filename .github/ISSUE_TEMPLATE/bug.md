@@ -1,6 +1,10 @@
 ---
 name: Bug Report
 about: Use this to file any bugs in the code.
+title: ''
+labels: bug
+assignees: ''
+
 ---
 
 ### Pre bug-report checklist : Read before continuing.
