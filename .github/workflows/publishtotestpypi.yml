@@ -20,7 +20,7 @@ jobs:
         run: >-
            python -m
            pip install
-           -u pep517
+           --user pep517
       - name: Build binary and tarball
         run: >-
            python -m
