@@ -21,7 +21,7 @@ jobs:
            python -m pip install -u pep517
       - name: Build binary and tarball
         run: >-
-        python -m pep517.buind --source --binary --out-dir dist/ .
+           python -m pep517.build --source --binary --out-dir dist/ .
       - name: Publish to pypi
         uses: pypa/gh-action-pypi-publish@master
         with:
