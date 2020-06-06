@@ -1,6 +1,8 @@
 # retronix.py
 A Python library designed for interacting with the RetronixMC Public API.
 
+This is the stable version. If you'd like to take a look at upcoming goodies that are in progress, then take a look at our `dev` branch!  *Be aware though, what you code with it might spook your program with a creepy-crawly code creature...*
+
 ### Documentation
 The entirety of the Library is peppered in documentation internally, including new features that are in progress. Feel free to take a browse around the files and take a look at how stuff works to get a better understanding. Otherwise, basic guidance and detailing of the library is outlined in the Wiki section of the repository. If you need any help, feel free to get in touch with the dev team in the Discord.
 
