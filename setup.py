@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import setuptools as st
-import retronix as r
 
 if __name__ == "__main__":
     
@@ -12,7 +11,7 @@ if __name__ == "__main__":
 
     st.setup(
         name="retronix.py-benfosterdev",
-        version=r.__version__,
+        version="1.0",
         author="Ben Foster",
         author_email="ben@benfoster.dev",
 
