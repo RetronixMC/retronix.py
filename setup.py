@@ -4,6 +4,8 @@ import setuptools as st
 import retronix as r
 
 if __name__ == "__main__":
+    
+    # It's bug hunting time
 
     with open("README.md", "r") as f:
         ld = f.read()
