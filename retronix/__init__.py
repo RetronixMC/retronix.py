@@ -16,4 +16,36 @@ __status__ = "Development"
 # Imports would go here
 #import asyncio
 
-print("Hello, World!")
+
+class Client:
+    """
+    Retronix API Client
+
+    Attributes:
+        censor (list): Censored words list
+        tld (list): List of censored Top Level Domains
+    """
+
+    def __init__(self, subs:dict=None):
+        """
+        Initialise a new instance of the Retronix Client.
+
+        Store this as a variable for use as this is what you'll need to interact with the API.
+
+        Parameters:
+            subs (dict): (Optional) Dictionary of subscriptions to initialise
+        """
+        print("Hello World")
+    def get(self, op):
+        """
+        Query API for up-to-date contents of specified list
+
+        Will also update the variables in the process
+
+        Parameters:
+            op (Type): (Required) Type of list to query from API
+
+        Returns:
+            list: Raw return content from API
+        """
+        return []
