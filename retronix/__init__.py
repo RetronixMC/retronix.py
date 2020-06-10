@@ -50,5 +50,18 @@ class Client:
         
         Raises:
             RateLimitError: This happens when the API returns an error stating that the token used is currently in cooldown.
+            ClientNotStartedError: Thrown when the client class hasn't been started.
         """
         return []
+    def getState(self):
+        """
+        Checks to see if the client is online or not.
+        """
+    def login(self, token):
+        """
+        Start the client and log into the API.
+
+        Parameters:
+            token (str): (Required) Token to use when signing onto the API.
+        """
+        self.__token = token
