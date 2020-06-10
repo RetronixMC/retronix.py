@@ -8,7 +8,7 @@
 __author__ = "Ben Foster"
 __copyright__ = "Copyright 2020, Retronix"
 __license__ = "MIT"
-__version__ = "1.1"
+__version__ = "1.1.1"
 __maintainer__ = "Ben Foster"
 __email__ = "ben@retronixmc.org"
 __status__ = "Development"
@@ -47,5 +47,8 @@ class Client:
 
         Returns:
             list: Raw return content from API
+        
+        Raises:
+            RateLimitError: This happens when the API returns an error stating that the token used is currently in cooldown.
         """
         return []
