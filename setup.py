@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     st.setup(
         name="retronix.py-benfosterdev",
-        version="1.1.2",
+        version="1.1.3",
         author="Ben Foster",
         author_email="ben@benfoster.dev",
 

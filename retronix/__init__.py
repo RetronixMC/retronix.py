@@ -8,7 +8,7 @@
 __author__ = "Ben Foster"
 __copyright__ = "Copyright 2020, Retronix"
 __license__ = "MIT"
-__version__ = "1.1.2"
+__version__ = "1.1.3"
 __maintainer__ = "Ben Foster"
 __email__ = "ben@retronixmc.org"
 __status__ = "Development"
@@ -63,5 +63,9 @@ class Client:
 
         Parameters:
             token (str): (Required) Token to use when signing onto the API.
+
+        Raises:
+            TokenIncorrectError: This will be thrown if the API responds that the token provided is incorrect.
+            TokenBarredError: This will be thrown if the API responds that the token provided has been blocked.
         """
         self.__token = token
