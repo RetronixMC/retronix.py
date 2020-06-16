@@ -1,3 +1,6 @@
+### <!> Important note:
+Development is currently on hold until the API is fully complete and online.
+
 # retronix.py
 A Python library designed for interacting with the RetronixMC Public API.
 
